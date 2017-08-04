@@ -25,6 +25,12 @@
   "author": "Sam Ellis",
   "permissions": [
     "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://intranet.rgs-guildford.co.uk/*"],
+      "css": ["css_to_inject.css"]
+	}
   ]
 }
 //to be determined if relevant or not and added to manifest
@@ -45,7 +51,6 @@
 //  "chrome_url_overrides": {...},
 //  "commands": {...},
 //  "content_capabilities": ...,
-//  "content_scripts": [{...}],
 //  "content_security_policy": "policyString",
 //  "converted_from_user_script": ...,
 //  "current_locale": ...,
