@@ -3,7 +3,6 @@
   "name": "Better Firefly",
   "version": "1.0",
 
-  "default_locale": "en",
   "description": "Provides a new look to Firefly",
   "icons": { "16": "images/icon-16.png",
     "24": "images/icon-24.png",
@@ -19,19 +18,22 @@
       "48": "images/icon-48.png",
       "128": "images/icon-128.png"
     },
-    "default_title": "Better Firefly"
+    "default_title": "Better Firefly",
     "default_popup": "popup.html"
-  }
+  },
 
   "author": "Sam Ellis",
-  "background": {
-    "persistent": false
-  },
   "permissions": [
-    "activetab"
-  ],
-  //to be completed
-  
+    "activeTab"
+  ]
+}
+//to be determined if relevant or not and added to manifest
+
+
+//  "default_locale": "en",
+//  "background": {
+//    "persistent": false
+//  },
 //  "background_page": ..., 
 //  "chrome_settings_overrides": {...},
 //  "chrome_ui_overrides": {
@@ -91,4 +93,3 @@
 //  "update_url": "http://path/to/updateInfo.xml",
 //  "version_name": "aString",
 //  "web_accessible_resources": [...]
-}
