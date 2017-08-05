@@ -26,10 +26,14 @@
   "permissions": [
     "activeTab"
   ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
   "content_scripts": [
     {
       "matches": ["https://intranet.rgs-guildford.co.uk/*"],
-      "css": ["css_to_inject.css"]
+      "js": ["js_to_inject.js"]
 	}
   ]
 }
