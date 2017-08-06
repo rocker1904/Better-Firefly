@@ -1,10 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Better Firefly Popup</title>
-  </head>
-  <body>
-    <h1>Better Firefly</h1>
-	<p>Curently only replaces Firefly background.</p>
-  </body>
+<head>
+  <title>Better Firefly Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <h2>Better Firefly Options</h2>
+  <h3>Background:</h3>
+  <select id="background_option">
+   <option value=1>Option One</option>
+   <option value=2>Option Two</option>
+  </select>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="popup.js"></script>
+</body>
 </html>

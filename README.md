@@ -1,3 +1,3 @@
 # Better Firefly
 
-A chrome extension which attempts to change the theme of Firefly
+A chrome extension which replaces the background of Firefly, more features coming soon.
